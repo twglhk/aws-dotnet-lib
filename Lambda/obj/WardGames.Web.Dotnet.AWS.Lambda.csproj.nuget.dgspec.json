@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/WardGames.Web.Dotnet.AWS.Lambda.csproj": {}
+  },
+  "projects": {
+    "/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/WardGames.Web.Dotnet.AWS.Lambda.csproj": {
+      "version": "0.5.1",
+      "restore": {
+        "projectUniqueName": "/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/WardGames.Web.Dotnet.AWS.Lambda.csproj",
+        "projectName": "WardGames.Web.Dotnet.AWS.Lambda",
+        "projectPath": "/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/WardGames.Web.Dotnet.AWS.Lambda.csproj",
+        "packagesPath": "/Users/sinjongha/.nuget/packages/",
+        "outputPath": "/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/NuGet.Config",
+          "/Users/sinjongha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://pkgs.dev.azure.com/wardgames/_packaging/WardGames/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.103.8, )"
+            },
+            "Amazon.DynamoDb": {
+              "target": "Package",
+              "version": "[0.25.0, )"
+            },
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "NewtonSoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "WardGames.Web.Dotnet": {
+              "target": "Package",
+              "version": "[0.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

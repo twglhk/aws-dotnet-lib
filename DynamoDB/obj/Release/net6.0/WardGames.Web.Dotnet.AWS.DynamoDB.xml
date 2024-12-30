@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WardGames.Web.Dotnet.AWS.DynamoDB</name>
+    </assembly>
+    <members>
+        <member name="T:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbDateTimePropertyConverter">
+            <summary>
+            DynamoDB에 저장하는 데이터 형식 중, DateTime으로 구성되어 있는 형태의 데이터를 변환하는 컨버터
+            </summary>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbDateTimePropertyConverter.ToEntry(System.Object)">
+            <summary>
+            Converts a DateTime object to a DynamoDBEntry object.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbDateTimePropertyConverter.FromEntry(Amazon.DynamoDBv2.DocumentModel.DynamoDBEntry)">
+            <summary>
+            Converts a DynamoDBEntry object to a DateTime object.
+            </summary>
+            <param name="entry"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbDictionaryPropertyConverter`2">
+            <summary>
+            DynamoDB에 저장하는 데이터 형식 중, 커스텀 데이터의 Dictionary로 구성되어 있는 형태의 데이터를 변환하는 컨버터
+            </summary>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbDictionaryPropertyConverter`2.FromEntry(Amazon.DynamoDBv2.DocumentModel.DynamoDBEntry)">
+            <summary>
+            DynamoDB의 데이터를 커스텀 클래스의 Dictionary로 변환
+            </summary>
+            <param name="entry">DynamoDB에서 로드한 데이터</param>
+            <returns>DB에 저장된 클래스들의 Dictionary 반환</returns>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbDictionaryPropertyConverter`2.ToEntry(System.Object)">
+            <summary>
+            커스텀 데이터의 Dictionary를 DynamoDB의 Document로 변환
+            </summary>
+            <param name="value">변환할 커스텀 데이터의 Dictionary</param>
+            <returns>DynamoDB에 저장될 수 있는 데이터 형태의 인스턴스</returns>
+        </member>
+        <member name="T:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbEnumDictionaryPropertyConverter`2">
+            <summary>
+            DynamoDB에 저장하는 데이터 형식 중, enum, value 쌍으로 되어 있는 Dictioanry 형태의 데이터를 Map으로 변환하는 컨버터
+            </summary>
+            <typeparam name="TEnum"></typeparam>
+            <typeparam name="TValue"></typeparam>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbEnumDictionaryPropertyConverter`2.ToEntry(System.Object)">
+            <summary>
+            Converts a DynamoDBEntry object to a Dictionary object.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbEnumDictionaryPropertyConverter`2.FromEntry(Amazon.DynamoDBv2.DocumentModel.DynamoDBEntry)">
+            <summary>
+            Converts a Dictionary object to a DynamoDBEntry object.
+            </summary>
+            <param name="entry"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbListPropertyConverter`1">
+            <summary>
+            DynamoDB에 저장하는 데이터 형식 중, 커스텀 데이터의 List로 구성되어 있는 형태의 데이터를 변환하는 컨버터
+            </summary>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbListPropertyConverter`1.FromEntry(Amazon.DynamoDBv2.DocumentModel.DynamoDBEntry)">
+            <summary>
+            DynamoDB의 데이터를 커스텀 클래스의 리스트로 변환
+            </summary>
+            <param name="entry">DynamoDB에서 로드한 데이터</param>
+            <returns>DB에 저장된 클래스들의 List 반환</returns>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbListPropertyConverter`1.ToEntry(System.Object)">
+            <summary>
+            커스텀 데이터의 List를 DynamoDB의 Document로 변환 <br/>
+            List는 DynamoDBEntry의 하위 클래스인 DynamoDBList를 사용
+            </summary>
+            <param name="value">변환할 커스텀 데이터의 List</param>
+            <returns>DynamoDB에 저장될 수 있는 데이터 형태의 인스턴스</returns>
+        </member>
+        <member name="T:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbPropertyEnumToStringConverter`1">
+            <summary>
+            DynamoDB에 저장하는 데이터 형식 중, Enum으로 구성되어 있는 형태의 데이터를 변환하는 컨버터
+            </summary>
+            <typeparam name="TEnum"></typeparam>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbPropertyEnumToStringConverter`1.FromEntry(Amazon.DynamoDBv2.DocumentModel.DynamoDBEntry)">
+            <summary>
+            Converts a DynamoDBEntry to Enum.
+            </summary>
+            <param name="entry"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.DynamoDbPropertyEnumToStringConverter`1.ToEntry(System.Object)">
+            <summary>
+            Converts an Enum to DynamoDBEntry.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WardGames.Web.Dotnet.AWS.DynamoDB.IDocumentable">
+            <summary>
+            DynamoDB가 요구하는 Document로 데이터를 변환할 수 있는 interface
+            </summary>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.IDocumentable.FromDocument(Amazon.DynamoDBv2.DocumentModel.Document)">
+            <summary>
+            DynamoDB의 Document로부터 데이터를 초기화
+            </summary>
+            <param name="document">DynamoDB document</param>
+        </member>
+        <member name="M:WardGames.Web.Dotnet.AWS.DynamoDB.IDocumentable.ToDocument">
+            <summary>
+            DynamoDB의 Document로 데이터를 변환
+            </summary>
+        </member>
+    </members>
+</doc>

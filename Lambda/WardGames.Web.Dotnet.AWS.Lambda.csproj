@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>WardGames.Web.Dotnet.AWS.Lambda</AssemblyName>
+    <Version>0.5.1</Version>
+    <PackageId>WardGames.Web.Dotnet.AWS.Lambda</PackageId>
+    <PackageDescription>It's the .NET web library for AWS Lambda from Ward Games.</PackageDescription>
+    <Authors>John Shin</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.APIGatewayEvents" Version="2.6.0" />
+    <PackageReference Include="NewtonSoft.Json" Version="13.0.3" />
+    <PackageReference Include="WardGames.Web.Dotnet" Version="0.2.1" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.103.8" />
+    <PackageReference Include="Amazon.DynamoDb" Version="0.25.0" />
+  </ItemGroup>
+
+</Project>

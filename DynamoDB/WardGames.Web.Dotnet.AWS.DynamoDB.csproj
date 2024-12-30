@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>WardGames.Web.Dotnet.AWS.DynamoDB</AssemblyName>
+    <Version>0.0.4.0</Version>
+    <PackageId>WardGames.Web.Dotnet.AWS.DynamoDB</PackageId>
+    <PackageDescription>It's the .NET web library for AWS DynamoDB from Ward Games.</PackageDescription>
+    <Authors>John Shin</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NewtonSoft.Json" Version="13.0.3" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.103.8" />
+    <PackageReference Include="Amazon.DynamoDb" Version="0.25.0" />
+  </ItemGroup>
+
+</Project>

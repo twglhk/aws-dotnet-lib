@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WardGames.Web.Dotnet.AWS.Lambda</id>
+    <version>0.3.2.3</version>
+    <authors>John Shin</authors>
+    <description>It's the .NET web library for AWS Lambda from Ward Games.</description>
+    <repository type="git" commit="3a3e777827ce925a80b11d43a737a058d5c64cc9" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AWSSDK.DynamoDBv2" version="3.7.103.8" exclude="Build,Analyzers" />
+        <dependency id="Amazon.DynamoDb" version="0.25.0" exclude="Build,Analyzers" />
+        <dependency id="Amazon.Lambda.APIGatewayEvents" version="2.6.0" exclude="Build,Analyzers" />
+        <dependency id="NewtonSoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="WardGames.Web.Dotnet" version="0.1.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.dll" target="lib/net6.0/WardGames.Web.Dotnet.AWS.Lambda.dll" />
+    <file src="/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.xml" target="lib/net6.0/WardGames.Web.Dotnet.AWS.Lambda.xml" />
+  </files>
+</package>

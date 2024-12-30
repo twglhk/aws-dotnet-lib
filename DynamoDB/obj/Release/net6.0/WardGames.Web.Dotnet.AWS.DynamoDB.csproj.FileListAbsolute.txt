@@ -1,0 +1,15 @@
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.deps.json
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.pdb
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.xml
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.csproj.AssemblyReference.cache
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.AssemblyInfoInputs.cache
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.AssemblyInfo.cs
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.csproj.CoreCompileInputs.cache
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/refint/WardGames.Web.Dotnet.AWS.DynamoDB.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.xml
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.pdb
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/ref/WardGames.Web.Dotnet.AWS.DynamoDB.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.sourcelink.json

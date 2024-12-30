@@ -1,0 +1,15 @@
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.deps.json
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.pdb
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.xml
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.csproj.AssemblyReference.cache
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.AssemblyInfoInputs.cache
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.AssemblyInfo.cs
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.csproj.CoreCompileInputs.cache
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/refint/WardGames.Web.Dotnet.AWS.Lambda.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.xml
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.pdb
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/ref/WardGames.Web.Dotnet.AWS.Lambda.dll
+/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/Lambda/obj/Release/net6.0/WardGames.Web.Dotnet.AWS.Lambda.sourcelink.json

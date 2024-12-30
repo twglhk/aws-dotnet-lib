@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WardGames.Web.Dotnet.AWS.DynamoDB</id>
+    <version>0.0.4</version>
+    <authors>John Shin</authors>
+    <description>It's the .NET web library for AWS DynamoDB from Ward Games.</description>
+    <repository type="git" commit="a9f8da2b86a04250a5204b97944590b5f83dcd38" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="AWSSDK.DynamoDBv2" version="3.7.103.8" exclude="Build,Analyzers" />
+        <dependency id="Amazon.DynamoDb" version="0.25.0" exclude="Build,Analyzers" />
+        <dependency id="NewtonSoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.dll" target="lib/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.dll" />
+    <file src="/Users/sinjongha/wkspaces/wardgames-web-dotnet-aws/DynamoDB/bin/Release/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.xml" target="lib/net6.0/WardGames.Web.Dotnet.AWS.DynamoDB.xml" />
+  </files>
+</package>
